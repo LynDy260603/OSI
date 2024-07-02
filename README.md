@@ -1,7 +1,8 @@
 # MÔ HÌNH OSI 7-LAYER MODEL
-**1. Layer 1-Physical (Lớp vật lý)**
+**1. Layer 1- Physical (Lớp vật lý)**
 
 - Đảm bảo các yêu cầu truyền/nhận các chuỗi bít qua các phương tiện vật lý ( là các dây cáp ).
+  
 **2. Layer 2- Data Link (Lớp liên kết dữ liệu)**
 
 - Tạo/gỡ bỏ khung thông tin (Frames), kiểm soát luồng và kiểm soát lỗi. Giao thức sử dụng phổ biến cho lớp này là Ethernet, PPPoE, HDLC,...
