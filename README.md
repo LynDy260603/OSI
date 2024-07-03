@@ -14,7 +14,7 @@ Ví dụ cụ thể là card mạng trong máy tính đanng sử dụng giao th�
 
 **4. Layer 4- Transport (Lớp vận chuyển)**
 
-- Vận chuyển thông tin giữa các máy chủ (End to End), kiểm soát lỗi và luồng dữ liệu. Sử dụng 2 giao thức chính là UDP và TCP- cả 3 giao thức đều chia các gói tin lớn thành nhỏ.
+- Vận chuyển thông tin giữa các máy chủ (End to End), kiểm soát lỗi và luồng dữ liệu. Sử dụng 2 giao thức chính là UDP và TCP- cả 2 giao thức đều chia các gói tin lớn thành nhỏ.
   
 - Sự khác nhau của 2 giao thức UDP và TCP: 
   
@@ -25,8 +25,8 @@ Khi có một statement bị lạc thì bên máy chủ gửi không nhận tin 
 **5. Layer 5- Session (Lớp phiên)**
 
 - Quản lý các cuộc liên lạc giữa các thực thể bằng cách thiết lập, duy trì, đồng bộ hoá và huỷ bỏ các phiên truyền thông giữa các ứng dụng.
-- Nhờ lớp này mà ta có thể mở nhiều ứng dụng mạng cùng một lúc, nó chia tài nguyên card mạng của máy tính ra thành nhiều slot thời gian mà mỗi slot là cho một cái ứng dụng mạng truy cập 
-đường truyền nhơ đó các ứng dụng có thể truy cập vào mạng một cách bình đẳng. 
+- Nhờ lớp này mà ta có thể mở nhiều ứng dụng mạng cùng một lúc, nó chia tài nguyên card mạng của máy tính ra thành nhiều slot thời gian mà mỗi slot là cho một cái ứng dụng mạng truy cập.
+đường truyền nhờ đó mà các ứng dụng có thể truy cập vào mạng một cách bình đẳng. 
 
 **6. Layer 6- Presentation (Lớp trình bày)**
 
